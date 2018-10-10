@@ -12,7 +12,7 @@ function plier {
 	echo "product of $@ is $product"
 }
 
-echo "Function 2:print 1 if even,print 0 if not even"
+echo "Function 2: print 1 if even,print 0 if not even"
 
 function isiteven {
 	 flag=1
@@ -43,7 +43,7 @@ function isiteven {
 	fi
 }
 
-echo "Function 3, count even number"
+echo "Function 3: count even number"
 function nevens {
 	local count=0
 	for entry in $@
@@ -67,7 +67,7 @@ function howodd {
 }
 
 
-echo "Function 4,generate fibonacci sequence"
+echo "Function 4: generate fibonacci sequence"
 function fib {
 	arr=(0 1)
 	end=$(expr $1 - 2)
